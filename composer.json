@@ -1,0 +1,31 @@
+{
+    "name": "mgatner/rectorerror",
+    "type": "library",
+    "description": "Demonstration of a Rector PHP bug",
+    "homepage": "https://github.com/tattersoftware/codeigniter4-thumbnails",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Gatner",
+            "email": "mgatner@tattersoftware.com",
+            "homepage": "https://tattersoftware.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "codeigniter4/framework": "^4.1"
+    },
+    "require-dev": {
+        "rector/rector": "0.12.12"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "MGatner\\RectorError\\": "src"
+        }
+    }
+}
